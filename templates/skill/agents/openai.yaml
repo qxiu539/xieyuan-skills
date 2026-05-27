@@ -1,0 +1,3 @@
+display_name: Skill Name
+short_description: Helps with one narrow, repeatable task.
+default_prompt: Use this skill to complete the task according to its workflow and success criteria.
