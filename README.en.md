@@ -3,7 +3,7 @@
 #### A personal collection of AI Skills and Prompts
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Skills](https://img.shields.io/badge/skills-0-lightgrey)
+![Skills](https://img.shields.io/badge/skills-1-lightgrey)
 ![Prompts](https://img.shields.io/badge/prompts-0-lightgrey)
 ![AgentSkills](https://img.shields.io/badge/AgentSkills-compatible-brightgreen)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-supported-black)
@@ -23,7 +23,7 @@ Prompts are lightweight instructions that can be copied into ChatGPT, Claude, Ge
 
 | Name | Summary | Notes |
 | --- | --- | --- |
-| Coming soon | Personal skills will be added here after they are tested in real use | TBD |
+| polish | Review articles in three passes and reduce AI-like wording in conservative mode | [SKILL.md](polish/SKILL.md) |
 
 ### Prompts
 
@@ -43,9 +43,13 @@ Replace `<skill-name>` with the skill directory name.
 
 ## Skills
 
-### Coming soon
+### polish
 
-Each skill section will include its use cases, trigger phrases, and a link to `SKILL.md`.
+Reviews articles in three passes and reduces AI-like wording. It accepts pasted article text or a file path.
+
+Trigger phrases: `/polish`, 帮我审校, 降AI味, 审校一下.
+
+Skill file: [polish/SKILL.md](polish/SKILL.md)
 
 Recommended skill layout:
 

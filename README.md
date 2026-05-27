@@ -3,7 +3,7 @@
 #### 我自己常用的一些 AI Skills 和 Prompts，会慢慢整理到这里
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Skills](https://img.shields.io/badge/skills-0-lightgrey)
+![Skills](https://img.shields.io/badge/skills-1-lightgrey)
 ![Prompts](https://img.shields.io/badge/prompts-0-lightgrey)
 ![AgentSkills](https://img.shields.io/badge/AgentSkills-compatible-brightgreen)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-supported-black)
@@ -23,7 +23,7 @@ Prompts 是可以直接复制到 ChatGPT、Claude、Gemini 等对话里的提示
 
 | 名字 | 一句话 | 讲解 |
 | --- | --- | --- |
-| 暂未添加 | 后续会把跑通的个人 skill 放在这里 | 待补 |
+| polish | 三遍审校文章并降低 AI 味，采用保守模式处理明确问题 | [SKILL.md](polish/SKILL.md) |
 
 ### Prompts
 
@@ -43,9 +43,13 @@ Prompts 是可以直接复制到 ChatGPT、Claude、Gemini 等对话里的提示
 
 ## Skills
 
-### 暂未添加
+### polish
 
-这里后续放每个 skill 的介绍、适合场景、触发方式和 SKILL.md 链接。
+对文章进行三遍审校并降低 AI 味。适合直接粘贴文章，或提供文件路径后审校。
+
+触发方式：`/polish`、帮我审校、降AI味、审校一下。
+
+技能文件：[polish/SKILL.md](polish/SKILL.md)
 
 每个 skill 建议直接放在仓库根目录，例如：
 
